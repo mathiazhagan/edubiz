@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration
+2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>	
+    <package name="default" extends="struts-default">
+       
+        <action name="suggestion" class="controller.suggestion" >
+            <result name="success" >/success.jsp</result>
+            <result name="input" >/index.jsp</result>
+            <result name="error" >/index.jsp</result>
+        </action>
+        <action name="talktous" class="controller.talktous" >
+            <result name="success" >/success.jsp</result>
+            <result name="input" >/talktous.jsp</result>
+            <result name="error" >/talktous.jsp</result>
+        </action>
+        <action name="register" class="controller.register" >
+            <result name="success" >success.jsp</result>
+            <result name="input" >studentreg.jsp</result>
+            <result name="error" >studentreg.jsp</result>
+        </action>        
+        <action name="activation" class="controller.activation" >
+            <result name="success" >success.jsp</result>
+        </action>
+    </package>
+</struts>

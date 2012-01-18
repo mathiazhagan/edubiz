@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 13, 2012 7:18:51 PM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="model.Visitor" table="visitor" catalog="edubizforum">
+        <id name="vistorId" type="java.lang.Long">
+            <column name="vistor_id" />
+            <generator class="identity" />
+        </id>
+        <property name="ip" type="string">
+            <column name="IP" length="20" not-null="true" />
+        </property>
+        <property name="browser" type="string">
+            <column name="browser" length="20" not-null="true" />
+        </property>
+        <property name="os" type="string">
+            <column name="os" length="20" not-null="true" />
+        </property>
+        <property name="visitTime" type="timestamp">
+            <column name="visit_time" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>
