@@ -55,11 +55,21 @@
                             </a>
                         </li>
 
-                        <li ><table ><tr><td><a href="#" id="facebook"></a></td>
-                                    <td ><a href="#" id="twitter"></a></td>
-                                    <td ><a href="#" id="in"></a></td>
+                        <li >
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/EdubizTech" id="facebook"></a>
+                                    </td>
+                                    <td>
+                                        <a id="twitter" href="https://twitter.com/edubiztech"></a>                                        
+                                    </td>
+                                    <td>
+                                        <a href="http://www.linkedin.com/company/edubiz" id="in"></a>
+                                    </td>
                                 </tr>
-                            </table></li>
+                            </table>
+                        </li>
 
                     </ul>
                 </div>
