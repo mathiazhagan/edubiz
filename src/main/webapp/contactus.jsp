@@ -59,16 +59,7 @@ Phone-(91)044-27238267
 
 <div style="float:left; width:250px; text-align:justify; padding-top:8px;">
 <br />
-Registered Address
-<br />
-<br />
-EduBiz Technologies
-<br />
-7,Anna Street,
-<br />
-Vedhachalam Nagar,
-<br />
-Kanchipuram-631501.
+
 <s:actionmessage theme="jquery"/>
 </div>
 	
